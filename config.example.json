@@ -6,6 +6,9 @@
     "level": "INFO"
   },
   "plugins": {
-    "./plugins/utils": {}
+    "./plugins/utils": {},
+    "./plugins/bili": {},
+    "./plugins/music": {},
+    "./plugins/arknights": {}
   }
 }

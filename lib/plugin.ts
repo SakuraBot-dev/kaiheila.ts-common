@@ -6,7 +6,7 @@ import { existsSync } from 'fs'
 import { Logger } from 'log4js'
 import CardBuilder from './bot/CardBuilder'
 
-export interface ctx{
+export declare interface ctx{
   bot: client,
   command: (regexp: RegExp, cmd: string, helper: string, callback: (match: RegExpExecArray, event: UserMessage, reply: (type: number, msg: string | CardBuilder  | CardBuilder[]) => void) => void) => void,
   config: any,
