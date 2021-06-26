@@ -1,4 +1,5 @@
 node_modules/
 logs/
 data/
+dist/
 config.json
