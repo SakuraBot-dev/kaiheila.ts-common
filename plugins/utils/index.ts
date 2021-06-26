@@ -35,7 +35,7 @@ export default (ctx: ctx) => {
     })
   })
 
-  ctx.command(/^\/whois (.*)$/, '/whois <IP/Domain/ASN>', 'pong!', async (match, event, reply) => {
+  ctx.command(/^\/whois (.*)$/, '/whois <IP/Domain/ASN>', 'Whois查询', async (match, event, reply) => {
     const msgid = await ctx.bot.Messages.sendMessage({
       type: 1,
       content: '[Whois] 查询中...',
