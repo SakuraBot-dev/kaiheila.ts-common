@@ -1,4 +1,4 @@
 node_modules/
 logs/
-debug.ts
+data/
 config.json

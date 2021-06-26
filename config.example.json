@@ -9,6 +9,9 @@
     "./plugins/utils": {},
     "./plugins/bili": {},
     "./plugins/music": {},
-    "./plugins/arknights": {}
+    "./plugins/arknights": {},
+    "./plugins/rss": {
+      "database": "./data/rss.json"
+    }
   }
 }
