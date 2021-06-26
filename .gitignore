@@ -1,0 +1,4 @@
+node_modules/
+logs/
+debug.ts
+config.json

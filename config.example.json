@@ -1,0 +1,11 @@
+{
+  "bot": {
+    "token": "机器人的token写这里"
+  },
+  "logger": {
+    "level": "INFO"
+  },
+  "plugins": {
+    "./plugins/utils": {}
+  }
+}
