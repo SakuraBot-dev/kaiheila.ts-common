@@ -6,11 +6,11 @@
     "level": "INFO"
   },
   "plugins": {
-    "./plugins/utils": {},
-    "./plugins/bili": {},
-    "./plugins/music": {},
-    "./plugins/arknights": {},
-    "./plugins/rss": {
+    "../plugins/utils/index": {},
+    "../plugins/bili/index": {},
+    "../plugins/music/index": {},
+    "../plugins/arknights/index": {},
+    "../plugins/rss/index": {
       "database": "./data/rss.json"
     }
   }
