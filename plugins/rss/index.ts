@@ -114,10 +114,10 @@ export default (ctx: ctx) => {
               card.addSeparator()
               card.addRowFields(2, [{
                 name: '订阅源',
-                value: db.cache[url].title
+                value: db.cache[url].title.trim()
               },{
                 name: '标题',
-                value: String(result.items[0].title)
+                value: String(result.items[0].title).trim()
               }, {
                 name: '链接',
                 value: `[点我](${result.items[0].link})`
