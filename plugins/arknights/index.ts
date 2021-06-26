@@ -1,5 +1,5 @@
-import CardBuilder from "../../lib/bot/CardBuilder"
-import { ctx } from "../../lib/plugin"
+import CardBuilder from "khts/lib/bot/CardBuilder"
+import { ctx } from 'khts/lib/plugin'
 import * as arknights from './api'
 
 export default (ctx: ctx) => {

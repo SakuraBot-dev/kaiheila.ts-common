@@ -1,4 +1,4 @@
-import { ctx } from "../../lib/plugin";
+import { ctx } from 'khts/lib/plugin'
 import { bili } from "./api";
 
 export default (ctx: ctx) => {

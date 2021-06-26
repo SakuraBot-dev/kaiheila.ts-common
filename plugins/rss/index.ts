@@ -1,4 +1,4 @@
-import { ctx } from '../../lib/plugin'
+import { ctx } from 'khts/lib/plugin'
 import Parser from 'rss-parser'
 import { mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';

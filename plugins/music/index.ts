@@ -1,5 +1,5 @@
 import got from "got"
-import { ctx } from "../../lib/plugin"
+import { ctx } from 'khts/lib/plugin'
 
 export default (ctx: ctx) => {
   ctx.command(/^\/play (.*)$/, '/play <关键词>', '点歌', async (match, event, reply) => {

@@ -1,4 +1,4 @@
-import { ctx } from "../../lib/plugin"
+import { ctx } from 'khts/lib/plugin'
 import whoiser from 'whoiser'
 import { create } from "../pastebin"
 
