@@ -1,6 +1,4 @@
-# KirisameMarisa
-一个使用 typescript 编写的开黑啦机器人
-
+# kaiheila.ts-common
 上游项目 [kaiheila.ts](https://github.com/SakuraBot-dev/kaiheila.ts)
 
 ## 食用方法
